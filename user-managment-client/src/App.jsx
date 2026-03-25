@@ -7,7 +7,7 @@ const usersPromise = fetch("http://localhost:5000/users").then((res) =>
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>User Managment</h1>
       <Users usersPromise={usersPromise}></Users>
     </>
   );
